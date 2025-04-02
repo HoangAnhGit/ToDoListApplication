@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoListApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InProcess">In Process</string>
+    <string name="TaskGroup">Task Group</string>
+    <string name="ViewTask">View Task</string>
+    <string name="Search">Search...</string>
+    <string name="Home">Home</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Focus">Focus</string>
+    <string name="Setting">Setting</string>
+</resources>
