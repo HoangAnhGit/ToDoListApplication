@@ -5,9 +5,23 @@
     <string name="InProcess">In Process</string>
     <string name="TaskGroup">Task Group</string>
     <string name="ViewTask">View Task</string>
-    <string name="Search">Search...</string>
+    <string name="Search">Search . . .</string>
     <string name="Home">Home</string>
     <string name="Calendar">Calendar</string>
     <string name="Focus">Focus</string>
     <string name="Setting">Setting</string>
+    <string name="AddTask">ADD TASK</string>
+    <string name="Category">Category</string>
+    <string name="TaskName">Task Name</string>
+    <string name="TaskDes">Description</string>
+    <string name="Date">Date</string>
+    <array name="Priority">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Normal</item>
+    </array>
+
+    <string name="Time">Time</string>
+    <string name="titlePriority">Priority</string>
+
 </resources>
