@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="Do math homework"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:textColor="@color/dark_purple"/>
@@ -46,6 +46,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:text="Make Ui design for the mini project
 post figma link to the trello using  ..."
+            android:maxLines="3"
             android:textColor="@color/dark_purple"/>
 
         <ImageView
