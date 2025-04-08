@@ -9,6 +9,7 @@
     <string name="Home">Home</string>
     <string name="Calendar">Calendar</string>
     <string name="Focus">Focus</string>
+    <string name="FocusMode">Focus Mode</string>
     <string name="Setting">Setting</string>
     <string name="AddTask">ADD TASK</string>
     <string name="Category">Category</string>
@@ -20,6 +21,10 @@
         <item>Medium</item>
         <item>Normal</item>
     </array>
+
+    <string name="Start">Start</string>
+    <string name="Continue">Continue</string>
+    <string name="cancel">Cancel</string>
 
     <string name="Time">Time</string>
     <string name="titlePriority">Priority</string>
