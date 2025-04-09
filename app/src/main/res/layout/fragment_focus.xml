@@ -116,10 +116,8 @@
             app:layout_constraintTop_toBottomOf="@id/layout_clock"
             android:layout_weight="1"
             android:text="@string/cancel"
-            android:textStyle="bold"
-            android:textSize="18sp"
             android:padding="8dp"
-            android:background="@drawable/bg_button"/>
+            style="@style/Button"/>
 
         <Button
             android:id="@+id/btn_continue"
@@ -131,10 +129,8 @@
             app:layout_constraintTop_toBottomOf="@id/layout_clock"
             android:layout_weight="1"
             android:text="@string/Continue"
-            android:textStyle="bold"
-            android:textSize="18sp"
             android:padding="8dp"
-            android:background="@drawable/bg_button"/>
+            style="@style/Button"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

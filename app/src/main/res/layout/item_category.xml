@@ -30,9 +30,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            style="@style/Body2Bold"
             android:textStyle="bold"
-            android:textColor="@color/dark_purple"
             android:id="@+id/txt_name_category"
             android:text="@string/TaskName"/>
 
@@ -41,8 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Time"
-            android:textSize="14sp"
-            android:textColor="@color/dark_purple"
+            style="@style/Body2"
             android:id="@+id/txt_size"
             />
     </LinearLayout>
@@ -68,12 +66,11 @@
             android:id="@+id/tvProgress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="85%"
-            android:textSize="11sp"
-            android:textStyle="bold"
-            android:textColor="@color/dark_purple"
+            android:layout_gravity="center"
             android:gravity="center"
-            android:layout_gravity="center"/>
+            android:text="85%"
+            style="@style/Small"
+            android:textStyle="bold" />
     </FrameLayout>
 
 </LinearLayout>

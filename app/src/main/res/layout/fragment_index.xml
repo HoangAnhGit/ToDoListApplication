@@ -19,22 +19,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hi, Atena !"
-                android:textStyle="bold"
-                android:textSize="24sp"
-                android:textColor="@color/dark_purple"/>
+                style="@style/Heading4"/>
 
             <TextView
                 android:id="@+id/txt_Wellcome_2"
                 android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/dark_purple"
-                android:textSize="14sp"
+                style="@style/Body2"
                 android:text="Good morning"/>
 
             <EditText
                 android:id="@+id/Search"
-                android:ems="10"
                 android:layout_marginTop="12dp"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
@@ -42,8 +38,7 @@
                 android:drawableStart="@drawable/search"
                 android:drawablePadding="16dp"
                 android:drawableTint="@color/dark_purple"
-                android:textColorHint="@color/dark_purple"
-                android:textColor="@color/dark_purple"
+                style="@style/SearchBar"
                 android:padding="16dp"
                 android:background="@drawable/bg_edt_search"/>
 
@@ -69,25 +64,21 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Your today task almost done !"
-                        android:textSize="18sp"
-                        android:textColor="@color/dark_purple"
+                        style="@style/Body1"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         android:layout_marginTop="12dp"/>
 
                     <Button
                         android:id="@+id/btn_viewAllTaskToday"
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        style="@style/Button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
-                        android:backgroundTint="@color/dark_purple"
                         android:text="@string/ViewTask"
                         android:layout_marginTop="24dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
                         app:layout_constraintTop_toTopOf="@+id/txt_guess"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -116,9 +107,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="85%"
-                        android:textSize="16sp"
+                        style="@style/Body1"
                         android:textStyle="bold"
-                        android:textColor="@color/dark_purple"
                         android:gravity="center"
                         android:layout_gravity="center"/>
                 </FrameLayout>
@@ -140,9 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/InProcess"
-                    android:textColor="@color/dark_purple"
-                    android:textStyle="bold"
-                    android:textSize="24sp"/>
+                    style="@style/Heading4"/>
 
                 <TextView
                     android:id="@+id/txtValueInProcess"
@@ -150,9 +138,8 @@
                     android:layout_height="wrap_content"
                     android:text="85"
                     android:padding="8dp"
-                    android:textSize="16sp"
+                    style="@style/Body2"
                     android:textStyle="bold"
-                    android:textColor="@color/dark_purple"
                     android:gravity="center"
                     android:layout_marginStart="10dp"
                     android:background="@drawable/bg_edt_search"/>
@@ -182,9 +169,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/TaskGroup"
-                        android:textColor="@color/dark_purple"
-                        android:textStyle="bold"
-                        android:textSize="24sp"/>
+                        style="@style/Heading4"/>
 
                     <TextView
                         android:id="@+id/txtValueTaskGroup"
@@ -192,9 +177,8 @@
                         android:layout_height="wrap_content"
                         android:text="85"
                         android:padding="8dp"
-                        android:textSize="16sp"
+                        style="@style/Body2"
                         android:textStyle="bold"
-                        android:textColor="@color/dark_purple"
                         android:layout_gravity="center"
                         android:layout_marginStart="10dp"
                         android:background="@drawable/bg_edt_search"/>

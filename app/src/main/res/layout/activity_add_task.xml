@@ -25,9 +25,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/AddTask"
-        android:textColor="@color/dark_purple"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        style="@style/Heading4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ic_back"
         app:layout_constraintTop_toTopOf="parent" />
@@ -65,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/TaskGroup"
-                android:textSize="12sp" />
+                style="@style/Small" />
 
             <TextView
                 android:id="@+id/txtCategory"
@@ -73,8 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Work"
                 android:textColor="@color/dark_purple"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                style="@style/Body1Bold" />
 
         </LinearLayout>
 
@@ -121,16 +118,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/titlePriority"
-                android:textSize="12sp" />
+                style="@style/Small" />
 
             <TextView
                 android:id="@+id/txtPriority"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hight"
-                android:textColor="@color/dark_purple"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                style="@style/Body1Bold"/>
 
         </LinearLayout>
 
@@ -163,11 +158,10 @@
             android:inputType="textMultiLine"
             android:maxLines="3"
             android:minLines="1"
-
+            style="@style/Body1"
             android:scrollHorizontally="false"
             android:textColor="@color/dark_purple"
-            android:textColorHint="@color/dark_purple"
-            android:textSize="16sp" />
+            android:textColorHint="@color/dark_purple" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -191,7 +185,7 @@
             android:scrollHorizontally="false"
             android:textColor="@color/dark_purple"
             android:textColorHint="@color/light_purple"
-            android:textSize="16sp" />
+            style="@style/Body1" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -228,16 +222,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Date"
-                android:textSize="12sp" />
+                style="@style/Small" />
 
             <TextView
                 android:id="@+id/txtDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="01 May, 2025"
-                android:textColor="@color/dark_purple"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                style="@style/Body1Bold" />
 
         </LinearLayout>
 
@@ -284,16 +276,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Time"
-                android:textSize="12sp" />
+                style="@style/Small"/>
 
             <TextView
                 android:id="@+id/txtTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8:00 PM"
-                android:textColor="@color/dark_purple"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                style="@style/Body1Bold" />
 
         </LinearLayout>
 
@@ -312,16 +302,13 @@
         android:id="@+id/btn_viewAllTaskToday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_button"
         android:text="@string/AddTask"
         android:layout_marginTop="32dp"
-        android:textSize="16sp"
         android:padding="12dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Button"/>
 
 
 

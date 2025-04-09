@@ -19,11 +19,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Do math homework"
-            android:textStyle="bold"
-            android:textSize="18sp"
+            style="@style/Body2Bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/dark_purple"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <ImageView
@@ -38,7 +36,7 @@
 
         <TextView
             android:id="@+id/des"
-            android:textSize="14sp"
+           style="@style/Body2"
             android:layout_marginTop="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,8 +44,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:text="Make Ui design for the mini project
 post figma link to the trello using  ..."
-            android:maxLines="3"
-            android:textColor="@color/dark_purple"/>
+            android:maxLines="3" />
 
         <ImageView
             android:id="@+id/img_clock"
@@ -67,9 +64,8 @@ post figma link to the trello using  ..."
             app:layout_constraintTop_toBottomOf="@+id/des"
             android:layout_marginTop="14dp"
             android:layout_marginStart="8dp"
-            android:textSize="14sp"
-            android:text="8:00 PM"
-            android:textColor="@color/dark_purple"/>
+            style="@style/Body2"
+            android:text="8:00 PM" />
 
         <TextView
             android:id="@+id/isComplete"
@@ -78,8 +74,7 @@ post figma link to the trello using  ..."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:text="Complete"
-            android:textStyle="bold"
-            android:textColor="@color/dark_purple"/>
+            style="@style/Body2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

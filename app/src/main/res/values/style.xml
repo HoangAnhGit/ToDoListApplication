@@ -4,4 +4,109 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="Heading2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/dark_purple</item>
+    </style>
+
+    <style name="Heading3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/dark_purple</item>
+    </style>
+
+    <style name="Heading4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/dark_purple</item>
+    </style>
+
+    <style name="Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="Body1Bold" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+
+    <style name="Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="Body2Bold" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="Small" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextButton" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="SearchBar" parent="ShapeAppearanceOverlay.Material3.SearchBar">
+        android:textColorHint="@color/dark_purple"
+        android:textColor="@color/dark_purple"
+    </style>
+
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="background">@drawable/bg_button</item>
+        <item name="android:backgroundTint">@color/dark_purple</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--
+    android:textSize	        Kích thước chữ (sp)         	            <item name="android:textSize">16sp</item>
+    android:textStyle	        Kiểu chữ (bold, italic, normal) 	        <item name="android:textStyle">bold</item>
+    android:textColor	        Màu chữ	                                    <item name="android:textColor">@color/black</item>
+    android:fontFamily  	    Font chữ                        	        <item name="android:fontFamily">sans-serif</item>
+    android:lineSpacingExtra   	Khoảng cách giữa các dòng (dp)	            <item name="android:lineSpacingExtra">4dp</item>
+    android:letterSpacing	    Khoảng cách giữa các chữ	                <item name="android:letterSpacing">0.1</item>
+    android:textAllCaps	        Viết hoa toàn bộ chữ            	        <item name="android:textAllCaps">true</item>
+    android:textAlignment	    Căn chỉnh chữ (center, viewStart, viewEnd)	<item name="android:textAlignment">center</item>
+
+Loại View	Parent phù hợp
+    TextView	TextAppearance.AppCompat.* hoặc TextAppearance.MaterialComponents.*
+    Button	Widget.AppCompat.Button hoặc Widget.MaterialComponents.Button
+    EditText	Widget.AppCompat.EditText hoặc Widget.MaterialComponents.TextInputLayout
+    ImageView	Widget.AppCompat.ImageView
+    CheckBox	Widget.AppCompat.CompoundButton.CheckBox hoặc Widget.MaterialComponents.CompoundButton.CheckBox
+    RadioButton	Widget.AppCompat.CompoundButton.RadioButton
+    CardView	Widget.MaterialComponents.CardView
+    Dialog	Theme.MaterialComponents.Dialog hoặc Theme.MaterialComponents.Dialog.Alert
+    Snackbar	Widget.MaterialComponents.Snackbar
+
+    -->
 </resources>

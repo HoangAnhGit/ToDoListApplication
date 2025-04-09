@@ -4,7 +4,7 @@
         android:id="@+id/index"
         android:enabled="true"
         android:icon="@drawable/home"
-        android:title="@string/Home" />
+        android:title="@string/Home"/>
     <item
         android:id="@+id/calendar"
         android:enabled="true"
